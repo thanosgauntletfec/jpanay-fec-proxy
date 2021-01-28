@@ -1,0 +1,44 @@
+{
+  "name": "mattc-fec-proxy",
+  "version": "1.0.0",
+  "description": "matts fec proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanosgauntletfec/mattc-fec-proxy.git"
+  },
+  "author": "MattCarlos96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanosgauntletfec/mattc-fec-proxy/issues"
+  },
+  "homepage": "https://github.com/thanosgauntletfec/mattc-fec-proxy#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "axios": "^0.21.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "cors": "^2.8.5",
+    "css-loader": "^5.0.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "styled-components": "^5.2.1",
+    "webpack": "^5.17.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.4.0"
+  }
+}
