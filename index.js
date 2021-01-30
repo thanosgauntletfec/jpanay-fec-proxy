@@ -8,10 +8,7 @@ const app = express();
 const PORT = 3080;
 const HOST = "localhost";
 
-app.use(cors({
-  origin: 'http://localhost:2080/',
-  optionsSuccessStatus: 200
-}))
+app.use(cors())
 app.use(express.static('./public'));
 
 app.listen(PORT, "localhost", () => {
