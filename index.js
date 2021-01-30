@@ -11,7 +11,7 @@ app.use(cors())
 app.use(express.static('./public'));
 
 app.listen(PORT, () =>  {
-  console.log(`Listening on PORT: ${port}`)
+  console.log(`Listening on PORT: ${PORT}`)
 })
 
 // app.get('/info', (req, res) => {
