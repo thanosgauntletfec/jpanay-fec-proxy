@@ -6,13 +6,12 @@ const cors = require('cors')
 const app = express();
 
 const PORT = 3080;
-const HOST = "localhost";
 
 app.use(cors())
 app.use(express.static('./public'));
 
-app.listen(PORT, "localhost", () => {
-  console.log(`starting proxy at ${HOST}:${PORT}`)
+app.listen(PORT, () =>  {
+  console.log(`Listening on PORT: ${port}`)
 })
 
 // app.get('/info', (req, res) => {

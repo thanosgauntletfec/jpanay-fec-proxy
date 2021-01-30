@@ -1,7 +1,7 @@
 {
-  "name": "mattc-fec-proxy",
+  "name": "jpanay-fec-proxy",
   "version": "1.0.0",
-  "description": "matts fec proxy",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thanosgauntletfec/mattc-fec-proxy.git"
+    "url": "git+https://github.com/thanosgauntletfec/jpanay-fec-proxy.git"
   },
-  "author": "MattCarlos96",
+  "author": "jpanay",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thanosgauntletfec/mattc-fec-proxy/issues"
+    "url": "https://github.com/thanosgauntletfec/jpanay-fec-proxy/issues"
   },
-  "homepage": "https://github.com/thanosgauntletfec/mattc-fec-proxy#readme",
+  "homepage": "https://github.com/thanosgauntletfec/jpanay-fec-proxy#readme",
   "dependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
