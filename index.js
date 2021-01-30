@@ -8,7 +8,11 @@ const app = express();
 const PORT = 3080;
 
 app.use(cors())
-app.use(express.static('./public'));
+app.use('/', express.static('./public'));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname + './public/index.html'));
+})
 
 app.listen(PORT, () =>  {
   console.log(`Listening on PORT: ${PORT}`)
